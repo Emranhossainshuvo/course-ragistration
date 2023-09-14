@@ -1,75 +1,74 @@
 [
-    {
-      "title": "Product 1",
-      "description": "Description for Product 1",
-      "id": 1,
-      "price": 19.99,
-      "credit": 5,
-      "img": "product1.jpg"
-    },
-    {
-      "title": "Product 2",
-      "description": "Description for Product 2",
-      "id": 2,
-      "price": 24.99,
-      "credit": 7,
-      "img": "product2.jpg"
-    },
-    {
-      "title": "Product 3",
-      "description": "Description for Product 3",
-      "id": 3,
-      "price": 14.99,
-      "credit": 3,
-      "img": "product3.jpg"
-    },
-    {
-      "title": "Product 4",
-      "description": "Description for Product 4",
-      "id": 4,
-      "price": 29.99,
-      "credit": 8,
-      "img": "product4.jpg"
-    },
-    {
-      "title": "Product 5",
-      "description": "Description for Product 5",
-      "id": 5,
-      "price": 9.99,
-      "credit": 2,
-      "img": "product5.jpg"
-    },
-    {
-      "title": "Product 6",
-      "description": "Description for Product 6",
-      "id": 6,
-      "price": 39.99,
-      "credit": 10,
-      "img": "product6.jpg"
-    },
-    {
-      "title": "Product 7",
-      "description": "Description for Product 7",
-      "id": 7,
-      "price": 17.99,
-      "credit": 4,
-      "img": "product7.jpg"
-    },
-    {
-      "title": "Product 8",
-      "description": "Description for Product 8",
-      "id": 8,
-      "price": 22.99,
-      "credit": 6,
-      "img": "product8.jpg"
-    },
-    {
-      "title": "Product 9",
-      "description": "Description for Product 9",
-      "id": 9,
-      "price": 11.99,
-      "credit": 3,
-      "img": "product9.jpg"
-    }
-  ]
-  
+  {
+    "title": "Basics to advance of AWS",
+    "description": "Elevate your AWS skills with deep dive into AWS Data and Analytics this comprehensive for data professionals.",
+    "id": 1,
+    "price": 19.99,
+    "credit": 5,
+    "img": "https://i.ibb.co/RPtpvQr/AWS.png"
+  },
+  {
+    "title": "A Practical Guide to Modern C++",
+    "description": "Discover the world of computing on C++ with guidance in this course on serverless application development.",
+    "id": 2,
+    "price": 24.99,
+    "credit": 7,
+    "img": "https://i.ibb.co/mvfttgs/C.png"
+  },
+  {
+    "title": "Basics of C Programming",
+    "description": "Master C Programming practices course, streamlining development with industry best practices.",
+    "id": 3,
+    "price": 14.99,
+    "credit": 3,
+    "img": "https://i.ibb.co/xJ799mw/CPorgramming.png"
+  },
+  {
+    "title": "Basic Database Management",
+    "description": "Effectively manage Database costs ROI with insights from this cost management optimization course.",
+    "id": 4,
+    "price": 29.99,
+    "credit": 8,
+    "img": "https://i.ibb.co/Bnq0jg3/Data-Structure.png"
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "description": "Ensure data security with Data Algorithms from this comprehensive security and compliance course.",
+    "id": 5,
+    "price": 9.99,
+    "credit": 2,
+    "img": "https://i.ibb.co/LPZdcrB/DSA.png"
+  },
+  {
+    "title": "SQL for Beginners and Beyond",
+    "description": "Achieve mySQL cloud expertise through in this comprehensive course for aspiring cloud professionals.",
+    "id": 6,
+    "price": 39.99,
+    "credit": 10,
+    "img": "https://i.ibb.co/5cmHn4z/mySQl.png"
+  },
+  {
+    "title": "Harnessing the Power of PHP",
+    "description": "Begin your coding journey by mastering PHP essentials and cloud architecture in this practical course.",
+    "id": 7,
+    "price": 17.99,
+    "credit": 4,
+    "img": "https://i.ibb.co/HG11nPx/php.png"
+  },
+  {
+    "title": "Training for Data Professionals",
+    "description": "Software engeniering skills await you in this course, where you'll explore Software engeniering firsthand.",
+    "id": 8,
+    "price": 22.99,
+    "credit": 6,
+    "img": "https://i.ibb.co/307Vrgj/Soft-Ware-Engeniering.png"
+  },
+  {
+    "title": "Effective Design Handling",
+    "description": "Master the Art of Web Design for Beautiful and User-Centric Websites in this wonderful Course.",
+    "id": 9,
+    "price": 11.99,
+    "credit": 3,
+    "img": "https://i.ibb.co/cDyTnQ1/web-Design.png"
+  }
+]
