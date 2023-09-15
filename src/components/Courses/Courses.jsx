@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types'
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const Courses = ({handleAddToBookmark}) => {
 
     const [courses, setCourses] = useState([]);
 
@@ -15,10 +16,14 @@ const Courses = () => {
     return (
         <div className="container mx-auto lg:grid lg:grid-cols-3 lg:gap-5">            
             {
-                courses.map(course => <Course key={course.id} course={course}></Course>)
+                courses.map(course => <Course key={course.id} handleAddToBookmark={handleAddToBookmark} course={course}></Course>)
             }
         </div>  
     );
 };
+
+Courses.propTypes = {
+    handleAddToBookmark: PropTypes.func
+}
 
 export default Courses;
