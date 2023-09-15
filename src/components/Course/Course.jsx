@@ -7,8 +7,8 @@ const Course = ({course}) => {
     const {credit, price, description, title, img} = course || {}; 
     return (
         <>
-        <div className='mt-12 w-64 shadow-gray-400 shadow-lg p-4 rounded-xl '>  
-            <img className='mb-4 w-64' src={img} alt="" />   
+        <div className='mt-12 w-11/12 shadow-gray-400 shadow-lg p-4 rounded-xl '>  
+            <img className='mb-4' src={img} alt="" />   
             <h3 className='text-base font-semibold mb-3'>{title}</h3>  
             <p className='text-[#434040ef] text-sm font-normal text-justify mb-4'>{description}</p>
             <div className='flex gap-4'>
