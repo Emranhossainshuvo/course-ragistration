@@ -14,9 +14,5 @@ Here are three features of this project:
 
 ## How I managed the state in my assignment project:
 
-* First of all it was challenging to me as it was my first assignment with react. I became confused while dealing with these states. 
-
-* The states were very helpfull to store data, specially when I work with the remaining and total credit.
-
-* I put numbers and objects in states, intending to access them from external components when necessary.
+First of all it was challenging to me as it was my first assignment with react. I became confused while dealing with these states. The states were very helpfull to store data, specially when I work with the remaining and total credit. I put numbers and objects in states, intending to access them from external components when necessary.
 

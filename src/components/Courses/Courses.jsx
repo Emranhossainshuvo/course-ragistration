@@ -14,7 +14,7 @@ const Courses = ({handleAddToBookmark}) => {
     }, [])
 
     return (
-        <div className="container mx-auto mb-10 lg:grid lg:grid-cols-3 lg:gap-5">            
+        <div className="container mx-auto mb-10 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:gap-5">            
             {
                 courses.map(course => <Course key={course.id} handleAddToBookmark={handleAddToBookmark} course={course}></Course>)
             }
