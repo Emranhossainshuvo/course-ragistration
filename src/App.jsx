@@ -26,10 +26,16 @@ function App() {
         count = count + item.credit;
       }); 
       const totalRemaining = 20 - count; 
-      setTotalCost(count)
-      console.log(count)
-      setRemaining(totalRemaining)
-      console.log(count)
+      
+      if(count > 20){
+        return toast("Sorry you cannot add it twice");
+      }else{
+        setTotalCost(count)
+        // console.log(count)
+        setRemaining(totalRemaining)
+      }
+     
+      // console.log(count)
     }
     // console.log(course.credit)
   }
