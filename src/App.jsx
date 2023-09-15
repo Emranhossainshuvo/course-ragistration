@@ -14,27 +14,28 @@ function App() {
   const [totalCost, setTotalCost] = useState(0)
 
   const handleAddToBookmark = course => {
-    const isExist = bookmarks.find(item => item.id == course.id);
     let count = course.credit;
+    const isExist = bookmarks.find(item => item.id == course.id);
 
     if (isExist) {
       return toast("Sorry you cannot add it twice");
     } else {
+      
       const newBookmarks = [...bookmarks, course];
-      setBookmarks(newBookmarks);
+      
       bookmarks.forEach((item) => {
         count = count + item.credit;
       }); 
       const totalRemaining = 20 - count; 
       
       if(count > 20){
-        return toast("Sorry you cannot add it twice");
+        return toast("No credit remaining");
       }else{
         setTotalCost(count)
         // console.log(count)
         setRemaining(totalRemaining)
       }
-     
+      setBookmarks(newBookmarks);
       // console.log(count)
     }
     // console.log(course.credit)
