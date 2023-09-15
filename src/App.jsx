@@ -10,7 +10,7 @@ import Courses from './components/Courses/Courses'
 function App() {
 
   const [bookmarks, setBookmarks] = useState([])
-  const [remaining, setRemaining] = useState(0);
+  const [remaining, setRemaining] = useState(20);
   const [totalCost, setTotalCost] = useState(0)
 
   const handleAddToBookmark = course => {
@@ -18,7 +18,7 @@ function App() {
     const isExist = bookmarks.find(item => item.id == course.id);
 
     if (isExist) {
-      return toast("Sorry you cannot add it twice");
+      return toast("Already added");
     } else {
       
       const newBookmarks = [...bookmarks, course];
@@ -29,7 +29,7 @@ function App() {
       const totalRemaining = 20 - count; 
       
       if(count > 20){
-        return toast("No credit remaining");
+        return toast("Not enough credit");
       }else{
         setTotalCost(count)
         // console.log(count)
