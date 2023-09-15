@@ -3,7 +3,7 @@ import Bookmark from '../Bookmark/Bookmark';
 
 
 const Bookmarks = ({bookmarks}) => {
-    console.log(bookmarks)
+    // console.log(bookmarks)
     return (
         <div className="lg:w-72 bg-slate-200 p-3 rounded-lg mt-16">
             <p className="text-lg font-bold text-[#2F80ED]">Credit Hour Remaining </p>  
