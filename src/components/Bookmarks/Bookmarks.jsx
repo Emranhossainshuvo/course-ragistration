@@ -11,7 +11,8 @@ const Bookmarks = ({bookmarks}) => {
             <h5 className="text-xl font-bold mb-3">Course Name:</h5> 
             {
                 bookmarks.map(bookmark => <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>)
-            }           
+            }      
+            <p className='text-[#434040ef] text-md font-normal text-justify mt-10'>Total Credit Hour:</p>     
         </div>
     );
 };

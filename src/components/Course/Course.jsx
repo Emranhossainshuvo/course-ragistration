@@ -17,7 +17,7 @@ const Course = ({ course, handleAddToBookmark }) => {
                     </div>
                     <div className='flex gap-3'>
                         <BsBook></BsBook>
-                        <p className='text-[#434040ef] text-sm font-normal'>Credit : {credit} </p>
+                        <p className='text-[#434040ef] text-sm font-normal'>Credit : {credit}hr</p>
                     </div>
                 </div>
                 <div className='flex justify-center mt-3'>

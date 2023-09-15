@@ -10,8 +10,13 @@ function App() {
   const [bookmarks, setBookmarks] = useState([])
 
   const handleAddToBookmark = course => {
-    const newBookmarks = [...bookmarks, course];
-    setBookmarks(newBookmarks);
+    const isExist = bookmarks.find(item => item.id == course.id);
+    if(isExist){
+      return alert('Already added');
+    }else{
+      const newBookmarks = [...bookmarks, course];
+      setBookmarks(newBookmarks);
+    }
   }
 
   return (
